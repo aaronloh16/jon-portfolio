@@ -167,7 +167,7 @@ export default function Home() {
         <section className="hero">
           <p className="hero-role">Mechanical Engineering · McMaster University</p>
           <h1>
-            Building systems<br />that work in practice.
+            Designing and building<br />things that work.
           </h1>
           <p className="hero-bio">{profile.bio}</p>
           <p className="hero-detail">{profile.detail}</p>
@@ -414,10 +414,10 @@ export default function Home() {
           ))}
         </section>
 
-        {/* ── Course Project ── */}
+        {/* ── Academic Projects ── */}
         <section className="section" id="project">
           <div className="section-header">
-            <span className="section-label">Academic Project</span>
+            <span className="section-label">Academic Projects</span>
           </div>
           <h2 className="section-title">Truth-Finding Tool</h2>
           <div className="project-card">
@@ -445,6 +445,29 @@ export default function Home() {
             >
               View Notebook
             </a>
+          </div>
+          <h2 className="section-title" style={{ marginTop: "2.5rem" }}>Obstacle Course Robot</h2>
+          <div className="project-card project-card-with-img">
+            <div
+              className="project-img"
+              onClick={() => setLightbox("/jon-project-images/robot-car.png")}
+            >
+              <Image
+                src="/jon-project-images/robot-car.png"
+                alt="Obstacle course robot — CAD model"
+                width={720}
+                height={480}
+                style={{ objectFit: "cover" }}
+              />
+            </div>
+            <div>
+              <p className="project-card-title">Creative Front-Wheel Workaround</p>
+              <p className="project-card-desc">
+                Built a small robot for an obstacle course with strict rules on the front wheels.
+                Designed an alternative steering setup to work within those constraints, built and
+                tested it, and it completed the course above class average time.
+              </p>
+            </div>
           </div>
         </section>
 
