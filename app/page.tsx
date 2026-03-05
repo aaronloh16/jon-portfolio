@@ -15,7 +15,7 @@ const profile = {
   email: "jonathanloh21@gmail.com",
   phone: "(905) 320-9450",
   linkedin: "https://www.linkedin.com/in/jonathan-daniel-loh/",
-  resumePath: "/Jonathans_Resume_VI.pdf",
+  resumePath: "/Jonathans_Resume_VIII.pdf",
 };
 
 const skillGroups = [
@@ -40,7 +40,6 @@ const galleryItems: {
   label: string;
   category: GalleryCategory;
 }[] = [
-  { src: "/jon-project-images/assembly-flanged-pipe-model.png", label: "Flanged Pipe Valve Body", category: "all"  },
   { src: "/jon-project-images/parametric-bearing-block.png",   label: "Bearing Block",      category: "all"       },
   { src: "/jon-project-images/parametric-revolved-spindle.png",label: "Revolved Spindle",   category: "all"       },
   { src: "/jon-project-images/wireframe-crank-handle.png",     label: "Crank Handle",       category: "all"       },
@@ -78,12 +77,6 @@ const assemblyGroups = [
     title: "Radial Engine",
     model:           { src: "/jon-project-images/assembly-radial-engine-model.png",   label: "5-cylinder assembly"    },
     assemblyDrawing: { src: "/jon-project-images/assembly-radial-engine-drawing.png", label: "Drawing & parts list"   },
-    detailDrawings: [],
-  },
-  {
-    title: "Flanged Pipe Valve Body",
-    model:           { src: "/jon-project-images/assembly-flanged-pipe-model.png",   label: "3-way valve body"    },
-    assemblyDrawing: { src: "/jon-project-images/assembly-flanged-pipe-drawing.png", label: "Engineering drawing" },
     detailDrawings: [],
   },
 ];
